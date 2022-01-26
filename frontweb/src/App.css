@@ -4,9 +4,10 @@
   font-family: 'open sans', sans-serif;
 }
 
-a, a:hover {
-    text-decoration: none;
-    color: unset;
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
 }
 
 h1,
@@ -17,4 +18,10 @@ h5,
 h6 {
   font-weight: 700;
   margin-bottom: 0;
+}
+
+.base-card {
+  background: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
